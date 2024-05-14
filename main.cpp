@@ -154,12 +154,6 @@ int main(int argc, const char* argv[]) {
 
     std::cout << "Arc Graph:\n";
     GraphDemo(arc_graph);
-
-    // Нужно продемонстрировать работу конструктора копирования, проинициализировав
-    // графы разных классов друг от друга. Далее, показать, что вершины и ребра
-    // успешно скопированы: число вершин осталось прежним, произвести BFS и DFS.
-    // MatrixGraph matrixGraph(listGraph);
-    // ArcGraph arcGraph(matrixGraph);
-    // SetGraph setGraph(arcGraph);
+    
     return 0;
 }
